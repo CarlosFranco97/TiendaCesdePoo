@@ -55,9 +55,9 @@ public class Product {
         }
     }
 
-    public void listUser() {
+    public void listProduct() {
         for(int i = 0; i < products.length; i++) {
-            for(int j = 0; j < products.length; j++) {
+            for(int j = 0; j < products[i].length; j++) {
                 System.out.println(products[i][j]);
             }
         }
